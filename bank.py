@@ -27,5 +27,6 @@ print ("The sum of these is €",euro)
 
 # print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount
 
+
 # lines 20-22 https://stackoverflow.com/questions/8637628/how-to-use-python-string-formatting-to-convert-an-integer-representing-cents-to
 
