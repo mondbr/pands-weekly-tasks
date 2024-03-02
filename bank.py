@@ -23,7 +23,7 @@ euro = decimal.Decimal(cents) / 100
 
 #this is to take the sum of cents and convert it to represent money using decimal numbers such as 1.05.
 
-print ("The sum of these is €",euro)
+print (f"The sum of these is €{euro}")
 
 # print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount
 
