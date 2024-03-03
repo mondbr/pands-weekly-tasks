@@ -21,7 +21,7 @@ import decimal
 cents = sum
 euro = decimal.Decimal(cents) / 100
 
-#this is to take the sum of cents and convert it to represent money using decimal numbers such as 1.05.
+#the above is to take the sum of cents and convert it to represent money using decimal numbers such as 1.05.
 
 print (f"The sum of these is €{float(euro)}")
 
