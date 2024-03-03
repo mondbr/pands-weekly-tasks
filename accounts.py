@@ -18,7 +18,7 @@ if len(account_no) == 10:
 
 # if input is not 10 characters long, program displays this message
 else: 
-    print("Invalid account number. Please enter exaclty 10 digits")
+    print("Invalid account number. Please enter exaclty 10 digits") 
 
 #replace information:
     # https://www.w3schools.com/python/trypython.asp?filename=demo_string_replace
