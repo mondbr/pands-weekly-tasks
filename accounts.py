@@ -4,7 +4,8 @@
 # author: Monika Dabrowska
 
 accountno = input ("Please enter an 10 digit account number: ")
-a = accountno[:5]
+a = accountno[:5] # takes first 5 numbers 
 
-print(a.replace(a, "XXXXXX"+ accountno[6:10]))
+print(a.replace(a, "XXXXXX"+ accountno[6:10])) # replacing 5 numbers with a sequence of symbols
+
 # https://www.w3schools.com/python/trypython.asp?filename=demo_string_replace
