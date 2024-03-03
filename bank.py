@@ -25,5 +25,5 @@ print (f"The sum of these is €{float(euro)}")
 
 
 
-# lines 19-20 https://stackoverflow.com/questions/8637628/how-to-use-python-string-formatting-to-convert-an-integer-representing-cents-to
+# lines 18-20 https://stackoverflow.com/questions/8637628/how-to-use-python-string-formatting-to-convert-an-integer-representing-cents-to
 
