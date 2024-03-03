@@ -4,5 +4,5 @@
 # author: Monika Dabrowska
 
 
-# Displays the result 
+# Displays the result  
 print("Hello World!")
