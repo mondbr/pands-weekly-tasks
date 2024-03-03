@@ -3,4 +3,5 @@
 # this program prints "Hello World! message"
 # author: Monika Dabrowska
 
+# Displays the result 
 print("Hello World!")
