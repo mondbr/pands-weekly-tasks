@@ -34,7 +34,7 @@ while True: # creates an infinite loop. The loop continues until a valid input i
         number = int(user_input) # if it is digit, checking if is an integer
          
         if number > 0: # checking if integer is higher than 0
-            break # 'break' exit the infinite loop if positive integer is entered
+            break # 'break' exit the infinite loop if positive integer is entered 
         else:
             print("Wrong number. Please enter a positive integer.") # if the number is negative this information is prompted
     else: # checking if entry is not a digit
