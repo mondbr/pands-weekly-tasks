@@ -14,7 +14,7 @@ if len(account_no) == 10:
     a = account_no[:6]
     
     # dysplying the result
-    print(a.replace(a, "XXXXXX"+ account_no[6:10])) 
+    print(a.replace(a, "XXXXXX"+ account_no[6:10])) # this is not the ideal way for repacing with Xs, I used other way in accounts_extra.py
 
 # if input is not 10 characters long, program displays this message
 else: 
