@@ -1,3 +1,8 @@
 # Programming and Scripting
-# weekly tasks
-# solutions to the problem sheet
+
+author: Monika Dabrowska
+
+This repository is for solutions to the weekly tasks for Programming and Scripting module. 
+
+
+I study at [ATU](https://www.atu.ie/)
