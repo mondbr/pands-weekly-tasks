@@ -6,12 +6,18 @@
 
 # Newton method 'better  =   1 / 2  *  ( approx  +  n / approx )'
 
-num=float(input("Please enter a positive number"))
 
-def sqrt(num):
+def newtonSqrt(n):
+    approx = 0.5 * n
+    better = 0.5 * (approx + n/approx)
 
-    guess = num / 2.0
-    while True:
-        new_guess = 0.5 * (guess + num / guess)
+    while better != approx:
+        approx = better
+        better = 0.5 * (approx + n/approx)
+        return approx
+while True:
+    n=float(input("Please enter a positive number"))
+
+print(newtonSqrt(n))
         
     
