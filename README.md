@@ -15,10 +15,10 @@ I don't have any prevoius programming experience nor knowledge of basing coding,
     * [Weekly task 03 - *accoutns.py*](#weekly-task-03---accoutnspy)
     * [Weekly task 03 Extra - *accounts_extra.py*](#weekly-task-03-extra---accounts_extrapy)
     * [Weekly task 04 - *collatz.py*](#weekly-task-04---collatzpy)
-    * [Weekly task 05 - *weekday.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/weekday.py)
-    * [Weekly task 06 - *squareroot.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/squareroot.py)
-    * [Weekly task 07 - *es.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/es.py)
-    * [Weekly task 08 - *plottask.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/plottask.py)
+    * [Weekly task 05 - *weekday.py*](#weekly-task-05---weekdaypy)
+    * [Weekly task 06 - *squareroot.py*](#weekly-task-06---squarerootpy)
+    * [Weekly task 07 - *es.py*](#weekly-task-07---espy)
+    * [Weekly task 08 - *plottask.py*](#weekly-task-08---plottaskpy)
 
 
 Each file contain comments and references to the code I am writing. 
@@ -34,6 +34,15 @@ Each file contain comments and references to the code I am writing.
 #### [Weekly task 03 Extra - *accounts_extra.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/accounts_extra.py)
 
 #### [Weekly task 04 - *collatz.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/collatz.py)
+
+#### [Weekly task 05 - *weekday.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/weekday.py)
+
+#### [Weekly task 06 - *squareroot.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/squareroot.py)
+
+
+#### [Weekly task 07 - *es.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/es.py)
+
+#### [Weekly task 08 - *plottask.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/plottask.py)
 
 
 
