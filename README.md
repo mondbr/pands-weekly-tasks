@@ -1,4 +1,5 @@
-<img src="https://www.openaire.eu/templates/yootheme/cache/f3/atu-logo-initial-english-rgb-navy-f3059903.webp" width=10% height=10%>
+<img src="https://www.openaire.eu/templates/yootheme/cache/f3/atu-logo-initial-english-rgb-navy-f3059903.webp" width=20% height=20%>
+
 # Programming and Scripting
 
 author: Monika Dabrowska
@@ -8,6 +9,7 @@ This repository is for solutions to the weekly tasks for Programming and Scripti
 I don't have any prevoius programming experience nor knowledge of basing coding, so I am using multiple sources and references to help me to complete the assignments. 
 
 
+Each file contain comments and references to the code I am writing. 
 
 ## Table of contents:
 * [Weekly tasks](#weekly-tasks)
@@ -22,9 +24,8 @@ I don't have any prevoius programming experience nor knowledge of basing coding,
     * [Weekly task 08 - *plottask.py*](#weekly-task-08---plottaskpy)
 
 
-Each file contain comments and references to the code I am writing. 
 
-### [Weekly tasks](https://github.com/mondbr/pands-weekly-tasks)
+# [Weekly tasks](https://github.com/mondbr/pands-weekly-tasks)
 
 #### [Weekly task 01 - *helloworld.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/helloworld.py)
 
