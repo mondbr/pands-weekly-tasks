@@ -8,8 +8,7 @@ This repository is for solutions to the weekly tasks for Programming and Scripti
 
 I don't have any prevoius programming experience nor knowledge of basing coding, so I am using multiple sources and references to help me to complete the assignments. 
 
-
-Each file contain comments and references to the code I am writing. 
+Each file contain comments to the code I am writing. Below I will explain my approach to solving the assigned task and reference the sources I researched for solving the problems. 
 
 ## Table of contents:
 * [Weekly tasks](#weekly-tasks)
