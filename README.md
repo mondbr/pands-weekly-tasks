@@ -27,12 +27,21 @@ Each file contains comments to the code I am writing. Below I will explain my ap
 
 
 # [Weekly tasks](https://github.com/mondbr/pands-weekly-tasks)
-======
+
 
 #### [Weekly task 01 - *helloworld.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/helloworld.py)
 
-    Commit and push a file to the weekly tasks repository called _helloworld.py_
-    This file should contain a python program that displays Hello World! when it is run
+    Commit and push a file to the weekly tasks repository.
+    This file should contain a python program that displays Hello World! when it is run.
+
+A simple and traditional "Hello World!" program is often used as the first example when learning a new programming language or environment. It's designed to demonstrate the basic syntax and structure of a programming language by printing the text "Hello World!" to the output.
+
+The output is: 
+    Hello World!
+
+
+
+
 
 
 
