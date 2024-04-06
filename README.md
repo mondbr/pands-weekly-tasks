@@ -10,30 +10,21 @@ I don't have any prevoius programming experience nor knowledge of basing coding,
 
 ## Table of contents:
 * [Weekly tasks](#weekly-tasks)
-    * [Weekly task 01 - helloworld.py] (#Weekly task 01 - helloworld.py)
-    * [Weekly task 02 - bank.py] (#Weekly task 02 - bank.py)
-    * [Weekly task 03 - accoutns.py] (#Weekly task 03 - accoutns.py)
-    * [Weekly task 03 Extra - accounts_extra.py] (#Weekly task 03 Extra - accounts_extra.py)
-    * [Weekly task 04 - collatz.py](https://github.com/mondbr/pands-weekly-tasks/blob/main/collatz.py)
-    * [Weekly task 05 - weekday.py](https://github.com/mondbr/pands-weekly-tasks/blob/main/weekday.py)
-    * [Weekly task 06 - squareroot.py](https://github.com/mondbr/pands-weekly-tasks/blob/main/squareroot.py)
-    * [Weekly task 07 - es.py](https://github.com/mondbr/pands-weekly-tasks/blob/main/es.py)
-    * [Weekly task 08 - plottask.py](https://github.com/mondbr/pands-weekly-tasks/blob/main/plottask.py)
+    * [Weekly task 01 - *helloworld.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/helloworld.py)
+    * [Weekly task 02 - *bank.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/bank.py)
+    * [Weekly task 03 - *accoutns.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/accounts.py)
+    * [Weekly task 03 Extra - *accounts_extra.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/accounts_extra.py)
+    * [Weekly task 04 - *collatz.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/collatz.py)
+    * [Weekly task 05 - *weekday.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/weekday.py)
+    * [Weekly task 06 - *squareroot.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/squareroot.py)
+    * [Weekly task 07 - *es.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/es.py)
+    * [Weekly task 08 - *plottask.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/plottask.py)
 
 
 Each file contain comments and references to the code I am writing. 
 
-## Weekly tasks:
+### [Weekly tasks](https://github.com/mondbr/pands-weekly-tasks)
 
-#### [Weekly task 01 - helloworld.py](https://github.com/mondbr/pands-weekly-tasks/blob/main/helloworld.py)
-
-
-#### [Weekly task 02 - bank.py](https://github.com/mondbr/pands-weekly-tasks/blob/main/bank.py)
-
-
-#### [Weekly task 03 - accoutns.py](https://github.com/mondbr/pands-weekly-tasks/blob/main/accounts.py)
-
-#### [Weekly task 03 Extra - accounts_extra.py](https://github.com/mondbr/pands-weekly-tasks/blob/main/accounts_extra.py)
 
 
 
