@@ -1,5 +1,4 @@
-<img src="https://i0.wp.com/nightcourses.com/wp-content/uploads/2022/04/ATU-Logo-Initial-English-RGB-Navy.png" width=50% height=50%>
-
+<img src="https://www.openaire.eu/templates/yootheme/cache/f3/atu-logo-initial-english-rgb-navy-f3059903.webp" width=10% height=10%>
 # Programming and Scripting
 
 author: Monika Dabrowska
