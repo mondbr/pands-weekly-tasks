@@ -41,12 +41,30 @@ The output is:
     Hello World!
 
 
-
-
-
-
-
 #### [Weekly task 02 - *bank.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/bank.py)
+
+    Write a program that should:
+
+    Prompt the user and read in two money amounts (in cent)
+    Add the two amounts
+    Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount
+
+I started with code to ask the user and read in two money amounts (in cent), then program add two amounts and convert it to two decimal numbers. 
+The idea of how to take the sum of cents and convert it to represent money using decimal numbers was taken from [Stackoverflow.com] (https://stackoverflow.com/questions/8637628/how-to-use-python-string-formatting-to-convert-an-integer-representing-cents-to).
+
+The program is called: 
+
+    $ python bank.py
+
+User input:
+    Enter your username: mondbr
+    Enter amount1(in cent): 65
+    Enter amount2(in cent): 180
+
+The output is:
+    The sum of these is €2.45
+
+
 
 #### [Weekly task 03 - *accoutns.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/accounts.py)
 
