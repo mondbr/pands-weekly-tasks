@@ -1,4 +1,4 @@
-![ATU](https://i0.wp.com/nightcourses.com/wp-content/uploads/2022/04/ATU-Logo-Initial-English-RGB-Navy.png)
+<img src="https://i0.wp.com/nightcourses.com/wp-content/uploads/2022/04/ATU-Logo-Initial-English-RGB-Navy.png" width=50% height=50%>
 
 # Programming and Scripting
 
