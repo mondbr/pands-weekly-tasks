@@ -26,7 +26,7 @@ Each file contains comments to the code I am writing. Below I will explain my ap
 
 
 
-# [Weekly tasks](https://github.com/mondbr/pands-weekly-tasks)
+# Weekly tasks
 
 
 #### [Weekly task 01 - *helloworld.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/helloworld.py)
