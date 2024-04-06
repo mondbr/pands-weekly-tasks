@@ -1,4 +1,4 @@
-<img src="https://www.atu.ie/sites/default/files/styles/traditional_television/public/2022-03/BRAND-GUIDELINES-600X450-1.png?h=b48714fe&itok=3RcXpzuD" width=10% height=10%>
+![ATU](https://i0.wp.com/nightcourses.com/wp-content/uploads/2022/04/ATU-Logo-Initial-English-RGB-Navy.png)
 
 # Programming and Scripting
 
