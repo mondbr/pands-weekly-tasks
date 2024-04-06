@@ -1,4 +1,4 @@
-![ATU]<img src="https://www.atu.ie/sites/default/files/styles/traditional_television/public/2022-03/BRAND-GUIDELINES-600X450-1.png?h=b48714fe&itok=3RcXpzuD = 100x100" width=50% height=50%>
+![ATU]<img src="https://www.atu.ie/sites/default/files/styles/traditional_television/public/2022-03/BRAND-GUIDELINES-600X450-1.png?h=b48714fe&itok=3RcXpzuD = 100x100" width="150" height="280">
 
 # Programming and Scripting
 
