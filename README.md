@@ -10,7 +10,7 @@ I don't have any prevoius programming experience nor knowledge of basing coding,
 
 ## Table of contents:
 * [Weekly tasks](#weekly-tasks)
-    * [Weekly task 01 - *helloworld.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/helloworld.py)
+    * [Weekly task 01 - *helloworld.py*](#weekly-task-01---helloworldpy)
     * [Weekly task 02 - *bank.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/bank.py)
     * [Weekly task 03 - *accoutns.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/accounts.py)
     * [Weekly task 03 Extra - *accounts_extra.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/accounts_extra.py)
@@ -24,6 +24,8 @@ I don't have any prevoius programming experience nor knowledge of basing coding,
 Each file contain comments and references to the code I am writing. 
 
 ### [Weekly tasks](https://github.com/mondbr/pands-weekly-tasks)
+
+#### [Weekly task 01 - *helloworld.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/helloworld.py)
 
 
 
