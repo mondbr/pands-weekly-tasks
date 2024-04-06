@@ -8,7 +8,7 @@ This repository is for solutions to the weekly tasks for Programming and Scripti
 
 I don't have any prevoius programming experience nor knowledge of basing coding, so I am using multiple sources and references to help me to complete the assignments. 
 
-Each file contain comments to the code I am writing. Below I will explain my approach to solving the assigned task and reference the sources I researched for solving the problems. 
+Each file contains comments to the code I am writing. Below I will explain my approach to solving the assigned task and reference the sources I researched for solving the problems. 
 
 ## Table of contents:
 * [Weekly tasks](#weekly-tasks)
@@ -24,9 +24,17 @@ Each file contain comments to the code I am writing. Below I will explain my app
 
 
 
+
+
 # [Weekly tasks](https://github.com/mondbr/pands-weekly-tasks)
+======
 
 #### [Weekly task 01 - *helloworld.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/helloworld.py)
+
+    ***Commit and push a file to the weekly tasks repository called *helloworld.py*
+    This file should contain a python program that displays Hello World! when it is run***
+
+
 
 #### [Weekly task 02 - *bank.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/bank.py)
 
