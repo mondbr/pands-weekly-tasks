@@ -31,7 +31,7 @@ Each file contains comments to the code I am writing. Below I will explain my ap
 
 #### [Weekly task 01 - *helloworld.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/helloworld.py)
 
-    Commit and push a file to the weekly tasks repository called *helloworld.py*
+    Commit and push a file to the weekly tasks repository called _helloworld.py_
     This file should contain a python program that displays Hello World! when it is run
 
 
