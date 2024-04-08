@@ -76,7 +76,7 @@ The output is:
     outputs the account number with only the last 4 digits showing 
     (and the first 6 digits replaced with Xs).
 
-This week, we were looking at variables in Python. The program I needed to write was very interesting to me because working with bank account numbers is related to my education and work experience. I started with code to ask the user to enter exactly a 10-digit number (bank account number). If the number of digits was incorrect, the program prompts an error message and asks to re-enter the number. Once the correct number is entered, the program replaces the first 6 digits with 'X', similar to what we can see in bank or card numbers, where specific numbers are encrypted for security reasons [w3schools.com](https://www.w3schools.com/python/trypython.asp?filename=demo_string_replace).
+This week, we were looking at variables in Python. The program I needed to write was very interesting to me because working with bank account numbers is related to my education and work experience. I started with code to ask the user to enter exactly a 10-digit number (bank account number). If the number of digits was incorrect, the program prompts an error message and asks to re-enter the number. Once the correct number is entered, the program replaces the first 6 digits with 'X', similar to what we can see in bank or card numbers, where specific numbers are encrypted for security reasons. The idea of how to replace digits was taken from [w3schools.com](https://www.w3schools.com/python/trypython.asp?filename=demo_string_replace).
 
 
 The program is called: 
@@ -131,13 +131,11 @@ The error message if the number of digits is incorrect:
 
 User input:
 
-    Please enter an 10 digit account number: 12
+    Please enter an account number with at least 4 digits: 12
 
 The output is:
 
     Invalid account number. Please enter a valid account number with at least 4 digits
-
-
 
 
 
