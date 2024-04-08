@@ -204,7 +204,10 @@ The output on Saturday and Sunday is:
 #### [Weekly task 06 - *squareroot.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/squareroot.py)
 
 
-In topic 06 we were looking at if statements and while and for loops. Weekly task required a good understanding the logic of Newton method before I could put the calculation in the code - I found that the process clicked after watching this [video](https://www.youtube.com/watch?v=FpOEx6zFf1o). 
+In topic 06 we were looking at *if* statements and *while* and *for* loops. Weekly task required a good understanding the logic of Newton method before I could put the calculation in the code - I found that the process clicked after watching this [video](https://www.youtube.com/watch?v=FpOEx6zFf1o). 
+This task required from the students to create their own definition
+
+
 
 
 
