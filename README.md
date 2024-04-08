@@ -71,9 +71,11 @@ The output is:
 
 #### [Weekly task 03 - *accoutns.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/accounts.py)
 
-    Write a python program called accounts.py that reads in a 10 character account number and outputs the account number with only the last 4 digits showing (and the first 6 digits replaced with Xs).
+    Write a python program called accounts.py that reads in a 10 character account number and 
+    outputs the account number with only the last 4 digits showing 
+    (and the first 6 digits replaced with Xs).
 
-This week we were looking at variables in python. The program I needed to write was very interesting for me as working with bank account numbers is related to my education and working experience. I started with code to ask the user to enter exaclty 10 digit number (bank account number). If the number of digits was incorrect, program is prompting an error message and asking to re-enter the number. Once correct number is entered, program is replacing first 6 digit with 'X', similiar to what we can see using bank or card numbers, where specific numbers are encrypted for secutiry reasons. 
+This week we were looking at variables in python. The program I needed to write was very interesting for me as work with bank account numbers is related to my education and working experience. I started with code to ask the user to enter exaclty 10 digit number (bank account number). If the number of digits was incorrect, program is prompting an error message and asking to re-enter the number. Once correct number is entered, program is replacing first 6 digit with 'X', similiar to what we can see using bank or card numbers, where specific numbers are encrypted for secutiry reasons. 
 The idea of how to replace digits was taken from [w3schools.com](https://www.w3schools.com/python/trypython.asp?filename=demo_string_replace).
 
 
