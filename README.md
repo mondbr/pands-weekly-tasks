@@ -50,7 +50,7 @@ The output is:
     Print out the answer in a human readable format with a euro sign and 
     decimal point between the euro and cent of the amount
 
-I started with code to ask the user and read in two money amounts (in cent), then program add two amounts and convert it to two decimal numbers. 
+I started with code to ask the user and read in two money amounts (in cents). Then the program adds the two amounts and converts it to two decimal numbers.  
 The idea of how to take the sum of cents and convert it to represent money using decimal numbers was taken from [Stackoverflow.com](https://stackoverflow.com/questions/8637628/how-to-use-python-string-formatting-to-convert-an-integer-representing-cents-to).
 
 The program is called: 
@@ -76,8 +76,7 @@ The output is:
     outputs the account number with only the last 4 digits showing 
     (and the first 6 digits replaced with Xs).
 
-This week we were looking at variables in python. The program I needed to write was very interesting for me as work with bank account numbers is related to my education and working experience. I started with code to ask the user to enter exaclty 10 digit number (bank account number). If the number of digits was incorrect, program is prompting an error message and asking to re-enter the number. Once correct number is entered, program is replacing first 6 digit with 'X', similiar to what we can see using bank or card numbers, where specific numbers are encrypted for secutiry reasons. 
-The idea of how to replace digits was taken from [w3schools.com](https://www.w3schools.com/python/trypython.asp?filename=demo_string_replace).
+This week, we were looking at variables in Python. The program I needed to write was very interesting to me because working with bank account numbers is related to my education and work experience. I started with code to ask the user to enter exactly a 10-digit number (bank account number). If the number of digits was incorrect, the program prompts an error message and asks to re-enter the number. Once the correct number is entered, the program replaces the first 6 digits with 'X', similar to what we can see in bank or card numbers, where specific numbers are encrypted for security reasons [w3schools.com](https://www.w3schools.com/python/trypython.asp?filename=demo_string_replace).
 
 
 The program is called: 
@@ -112,8 +111,8 @@ The output is:
     Modify the program to deal with account numbers of any length
     (yes that is a vague requirement, comment your assumptions)
 
-This was an extra task to modify the program I write in topic 03. It allowed me to approach to the problem differently. 
-My assumpions were that the number entered should have at least 4 digits, so the program can replace any number of digits with 'x', but leaving last 4 digits visible. I used a very popular nowadays tool to help me with it - AI - [Chat GPT](https://chat.openai.com/). With that powerful support I learned how I can replace specific number of digits with an 'x' while user can enter a number of any lenght (when requirements are met).
+This was an extra task to modify the program I wrote in topic 03. It allowed me to approach the problem differently. 
+My assumptions were that the account number entered should have at least 4 digits so the program can replace any number of digits with 'x', while leaving the last 4 digits visible. I used a very popular tool nowadays to help me with it - AI - [Chat GPT](https://chat.openai.com/). With that powerful support, I learned how to replace a specific number of digits with an 'x' while the user can enter a number of any length (when requirements are met).
 
 
 The program is called: 
