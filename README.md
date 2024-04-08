@@ -141,8 +141,10 @@ The output is:
 
 #### [Weekly task 04 - *collatz.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/collatz.py)
 
-    Write a program, called collatz.py, that asks the user to input any positive integer and outputs the successive values of the following calculation.
-    At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.
+    Write a program, called collatz.py, that asks the user to input any positive integer 
+    and outputs the successive values of the following calculation.
+    At each step calculate the next value by taking the current value and, if it is even, divide it by two, 
+    but if it is odd, multiply it by three and add one.
     Have the program end if the current value is one.
 
 In topic 04 we were looking at if statements and while and for loops. In the weekly task 04 I needed to write a program that will represent the Collatz conjecture. It is also known as the 3n + 1 conjecture or Collatz problem. It's a mathematical problem that involves iterating a particular sequence based on a simple rule. The rule is as follows:
@@ -154,14 +156,53 @@ In topic 04 we were looking at if statements and while and for loops. In the wee
 
 The conjecture posits that no matter what positive integer you start with, this sequence will eventually reach 1. However, proving or disproving this conjecture remains an unsolved problem in mathematics, despite being easy to understand and experiment with computationally. 
 
-To write this program I was refferencing to materials availabe w3schools.com [here](https://www.w3schools.com/python/ref_keyword_def.asp) and [here](https://www.w3schools.com/python/python_try_except.asp). Also, this [video](https://www.youtube.com/watch?v=lAp_5qTdOhM) was very informative. 
+To write this program I was refferencing to materials availabe on w3schools.com [here](https://www.w3schools.com/python/ref_keyword_def.asp) and [here](https://www.w3schools.com/python/python_try_except.asp). Also, this [video](https://www.youtube.com/watch?v=lAp_5qTdOhM) was very informative. 
 
+The program is called: 
 
+    $ collatz.py
 
+User input:
+
+    Please enter a positive integer: 10
+
+The output is:
+
+    Collatz sequence: 10 5 16 8 4 2 1
+
+The assumption is that the number must be positive. The error message if the number is negative:
+
+User input:
+
+    Please enter a positive integer: -10
+
+The output is:
+    
+    Invalid input. Please enter a positive integer.
 
 
 
 #### [Weekly task 05 - *weekday.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/weekday.py)
+
+    Write a program that outputs whether or not today is a weekday.
+    You will need to search the web to find how you work out what day it is.
+
+In topic 05 we were learning about lists, tuples and dictionaries and how we can use them in programming. This week task required a bit more research of how to approach to it. I decided to use the *import datetime* statement in Python that is used to import the datetime module, which provides classes and methods for working with dates and times. This module is part of the Python standard library. I found the information on [w3schools.com](https://www.w3schools.com/python/python_datetime.asp). The idea of how to get the current date and time and the *weekday()* method that returns the day of the week as an integer, where Monday is 0 and Sunday is 6. was taken from [shecodes.io] (https://www.shecodes.io/athena/10185-how-to-check-what-day-of-the-week-it-is-in-python).
+
+
+The output from Monday to Friday is:
+
+    Is today a weekday?
+    Yes, unfotunately today is a weekday :( 
+
+The output on Saturday and Sunday is:
+
+    It is a weekend, yay! :)
+
+
+
+
+
 
 #### [Weekly task 06 - *squareroot.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/squareroot.py)
 
