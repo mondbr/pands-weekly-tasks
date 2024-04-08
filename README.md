@@ -47,7 +47,8 @@ The output is:
 
     Prompt the user and read in two money amounts (in cent)
     Add the two amounts
-    Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount
+    Print out the answer in a human readable format with a euro sign and 
+    decimal point between the euro and cent of the amount
 
 I started with code to ask the user and read in two money amounts (in cent), then program add two amounts and convert it to two decimal numbers. 
 The idea of how to take the sum of cents and convert it to represent money using decimal numbers was taken from [Stackoverflow.com](https://stackoverflow.com/questions/8637628/how-to-use-python-string-formatting-to-convert-an-integer-representing-cents-to).
@@ -105,10 +106,41 @@ The output is:
 
 
 
-
-
-
 #### [Weekly task 03 Extra - *accounts_extra.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/accounts_extra.py)
+
+    Extra:
+    Modify the program to deal with account numbers of any length
+    (yes that is a vague requirement, comment your assumptions)
+
+This was an extra task to modify the program I write in topic 03. It allowed me to approach to the problem differently. 
+My assumpions were that the number entered should have at least 4 digits, so the program can replace any number of digits with 'x', but leaving last 4 digits visible. I used a very popular nowadays tool to help me with it - AI - [Chat GPT](https://chat.openai.com/). With that powerful support I learned how I can replace specific number of digits with an 'x' while user can enter a number of any lenght (when requirements are met).
+
+
+The program is called: 
+        
+    $ accounts_extra.py
+
+User input:
+
+    Please enter an account number with at least 4 digits: 123456
+
+The output is:
+
+    xx3456
+    
+The error message if the number of digits is incorrect:
+
+User input:
+
+    Please enter an 10 digit account number: 12
+
+The output is:
+
+    Invalid account number. Please enter a valid account number with at least 4 digits
+
+
+
+
 
 #### [Weekly task 04 - *collatz.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/collatz.py)
 
