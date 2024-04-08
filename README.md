@@ -187,7 +187,7 @@ The output is:
     Write a program that outputs whether or not today is a weekday.
     You will need to search the web to find how you work out what day it is.
 
-In topic 05 we were learning about lists, tuples and dictionaries and how we can use them in programming. This week task required a bit more research of how to approach to it. I decided to use the *import datetime* statement in Python that is used to import the datetime module, which provides classes and methods for working with dates and times. This module is part of the Python standard library. I found the information on [w3schools.com](https://www.w3schools.com/python/python_datetime.asp). The idea of how to get the current date and time and the *weekday()* method that returns the day of the week as an integer, where Monday is 0 and Sunday is 6. was taken from [shecodes.io] (https://www.shecodes.io/athena/10185-how-to-check-what-day-of-the-week-it-is-in-python).
+In topic 05 we were learning about lists, tuples and dictionaries and how we can use them in programming. This week task required a bit more research of how to approach to it. I decided to use the *import datetime* statement in Python that is used to import the datetime module, which provides classes and methods for working with dates and times. This module is part of the Python standard library. I found the information on [w3schools.com](https://www.w3schools.com/python/python_datetime.asp). The idea of how to get the current date and time and the *weekday()* method that returns the day of the week as an integer, where Monday is 0 and Sunday is 6 was taken from [shecodes.io] (https://www.shecodes.io/athena/10185-how-to-check-what-day-of-the-week-it-is-in-python).
 
 
 The output from Monday to Friday is:
@@ -201,13 +201,14 @@ The output on Saturday and Sunday is:
 
 
 
-
-
-
 #### [Weekly task 06 - *squareroot.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/squareroot.py)
 
 
-In topic 06 we were looking at if statements and while and for loops. Weekly task required a good understanding the logic before I could put the calculation in the code - I found that the process clicked after watching this [video](https://www.youtube.com/watch?v=FpOEx6zFf1o) 
+In topic 06 we were looking at if statements and while and for loops. Weekly task required a good understanding the logic before I could put the calculation in the code - I found that the process clicked after watching this [video](https://www.youtube.com/watch?v=FpOEx6zFf1o). 
+
+
+
+
 
 
 #### [Weekly task 07 - *es.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/es.py)
