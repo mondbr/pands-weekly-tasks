@@ -141,9 +141,32 @@ The output is:
 
 #### [Weekly task 04 - *collatz.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/collatz.py)
 
+    Write a program, called collatz.py, that asks the user to input any positive integer and outputs the successive values of the following calculation.
+    At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.
+    Have the program end if the current value is one.
+
+In topic 04 we were looking at if statements and while and for loops. In the weekly task 04 I needed to write a program that will represent the Collatz conjecture. It is also known as the 3n + 1 conjecture or Collatz problem. It's a mathematical problem that involves iterating a particular sequence based on a simple rule. The rule is as follows:
+
+    1. Start with any positive integer n
+    2. If n is even, divide it by 2 (n / 2)
+    3. If n is odd, multiply it by 3 and add 1 (3n + 1)
+    4. Repeat the process with the new value of n obtained in step 2 or 3.
+
+The conjecture posits that no matter what positive integer you start with, this sequence will eventually reach 1. However, proving or disproving this conjecture remains an unsolved problem in mathematics, despite being easy to understand and experiment with computationally. 
+
+To write this program I was refferencing to materials availabe w3schools.com [here](https://www.w3schools.com/python/ref_keyword_def.asp) and [here](https://www.w3schools.com/python/python_try_except.asp). Also, this [video](https://www.youtube.com/watch?v=lAp_5qTdOhM) was very informative. 
+
+
+
+
+
+
 #### [Weekly task 05 - *weekday.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/weekday.py)
 
 #### [Weekly task 06 - *squareroot.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/squareroot.py)
+
+
+In topic 06 we were looking at if statements and while and for loops. Weekly task required a good understanding the logic before I could put the calculation in the code - I found that the process clicked after watching this [video](https://www.youtube.com/watch?v=FpOEx6zFf1o) 
 
 
 #### [Weekly task 07 - *es.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/es.py)
