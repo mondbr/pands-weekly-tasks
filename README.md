@@ -1,4 +1,4 @@
-<img src="https://www.openaire.eu/templates/yootheme/cache/f3/atu-logo-initial-english-rgb-navy-f3059903.webp" width=20% height=20%>
+<img src="https://vlegalwaymayo.atu.ie/pluginfile.php/1/theme_catawesome/logo/1708672446/logo.svg" width=20% height=20%>
 
 # Programming and Scripting
 
@@ -70,6 +70,8 @@ The output is:
 
 
 #### [Weekly task 03 - *accoutns.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/accounts.py)
+
+
 
 #### [Weekly task 03 Extra - *accounts_extra.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/accounts_extra.py)
 
