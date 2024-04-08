@@ -50,7 +50,7 @@ The output is:
     Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount
 
 I started with code to ask the user and read in two money amounts (in cent), then program add two amounts and convert it to two decimal numbers. 
-The idea of how to take the sum of cents and convert it to represent money using decimal numbers was taken from [Stackoverflow.com](https://stackoverflow.com/questions/8637628/how-to-use-python-string-formatting-to-convert-an-integer-representing-cents-to) .
+The idea of how to take the sum of cents and convert it to represent money using decimal numbers was taken from [Stackoverflow.com](https://stackoverflow.com/questions/8637628/how-to-use-python-string-formatting-to-convert-an-integer-representing-cents-to).
 
 The program is called: 
 
@@ -70,6 +70,39 @@ The output is:
 
 
 #### [Weekly task 03 - *accoutns.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/accounts.py)
+
+    Write a python program called accounts.py that reads in a 10 character account number and outputs the account number with only the last 4 digits showing (and the first 6 digits replaced with Xs).
+
+This week we were looking at variables in python. The program I needed to write was very interesting for me as working with bank account numbers is related to my education and working experience. I started with code to ask the user to enter exaclty 10 digit number (bank account number). If the number of digits was incorrect, program is prompting an error message and asking to re-enter the number. Once correct number is entered, program is replacing first 6 digit with 'X', similiar to what we can see using bank or card numbers, where specific numbers are encrypted for secutiry reasons. 
+The idea of how to replace digits was taken from [w3schools.com](https://www.w3schools.com/python/trypython.asp?filename=demo_string_replace).
+
+
+The program is called: 
+        
+    $ accounts.py
+
+User input:
+
+    Please enter an 10 digit account number: 1234567890
+
+The output is:
+
+    XXXXXX7890
+    
+The error message if the number of digits is incorrect:
+
+User input:
+
+    Please enter an 10 digit account number: 1234
+
+The output is:
+
+    Invalid account number. Please enter exaclty 10 digits
+
+
+
+
+
 
 
 
