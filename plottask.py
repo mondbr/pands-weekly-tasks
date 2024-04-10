@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 data = np.random.normal(5, 2, 1000)
 
 # Plot histogram of the normal distribution
-plt.hist(data, alpha=0.9, color='blue', label='Normal Distribution', edgecolor="black")
+plt.hist(data, alpha=0.1, color='blue', label='Normal Distribution', edgecolor="black")
 
 # Generate x values for the function h(x) = x^3
 x = np.linspace(0, 10, 100)
@@ -24,7 +24,7 @@ plt.plot(x, y, color='green', label='$h(x) = x^3$')
 # Add legend, labels, and title
 plt.legend()
 plt.xlabel('Values')
-plt.ylabel('Frequency / $h(x)$')
+plt.ylabel('h(x) = x^3')
 plt.title('Histogram of Normal Distribution and Plot of $h(x) = x^3$')
 plt.show()
 
