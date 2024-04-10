@@ -221,6 +221,8 @@ Newton method is that for any number N, the square root is 0.5 * (X + N / X).
 
 
 
+
+
 The program is called: 
 
     $ squareroot.py
@@ -234,6 +236,15 @@ The output is:
     The square root of 14.5 is approx. 3.8.
 
 
+The assumption is that the number must be positive, so I addd a check if the number is a positive number and using *abs()* module I converted negative number to be positive.
+
+User input:
+
+    Please enter a positive integer: -10
+
+The output is:
+    
+    Invalid input. Please enter a positive integer.
 
 
 

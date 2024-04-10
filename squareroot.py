@@ -48,7 +48,7 @@ number = float(input("Please enter a positive number: "))
 result = sqrt(number)
 
 # Printing the result
-print(f"The square root of {number} is approx. {round(result,1)}.") # adding round to show only 1 decimal place. 
+print(f"The square root of {abs(number)} is approx. {round(result,1)}.") # adding round to show only 1 decimal place. 
 
 # the alternative to rounding is 
 # %:.2f is a function to print only 2 decimal places https://pythonguides.com/python-print-2-decimal-places/
