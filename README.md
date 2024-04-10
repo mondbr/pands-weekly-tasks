@@ -295,7 +295,7 @@ Another assumption is that the file is a txt file. If not, the error message is 
 
 
 
-![Plot_task]()
+![Plot_task](https://github.com/mondbr/pands-weekly-tasks/blob/main/plottask.png)
 
 
 
