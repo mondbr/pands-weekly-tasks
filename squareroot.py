@@ -17,7 +17,10 @@ def sqrt(x):
             # Returns : float -  Approximation of the square root of x
     
     if x < 0:
-        return None # the number cannot be negative  (I know this is not ideal, but I am not sure how differently put this condition)
+        print ("This is a negative number, we need a positive number.") #number entered must be positive, so I am adding a check if the number is a positive number. 
+
+        x = abs(x) # Using abs() module to transform negative number into a positive number.
+        print (f"Let me fix this negative number to be positive: {x}") 
     
     # I  am starting the loop with my guess: X = N:
 
@@ -43,6 +46,9 @@ number = float(input("Please enter a positive number: "))
 result = sqrt(number)
 
 # Printing the result
-print(f"The square root of {number} is approx. {result:.2f}.") # %:.2f is a function to print only 2 decimal places https://pythonguides.com/python-print-2-decimal-places/
+print(f"The square root of {number} is approx. {round(result,1)}.") # adding round to show only 1 decimal place. 
+
+# the alternative to rounding is 
+# %:.2f is a function to print only 2 decimal places https://pythonguides.com/python-print-2-decimal-places/
 
     

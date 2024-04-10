@@ -156,7 +156,7 @@ In topic 04 we were looking at if statements and while and for loops. In the wee
 
 The conjecture posits that no matter what positive integer you start with, this sequence will eventually reach 1. However, proving or disproving this conjecture remains an unsolved problem in mathematics, despite being easy to understand and experiment with computationally. 
 
-To write this program I was refferencing to materials availabe on w3schools.com [here](https://www.w3schools.com/python/ref_keyword_def.asp) and [here](https://www.w3schools.com/python/python_try_except.asp). Also, this [video](https://www.youtube.com/watch?v=lAp_5qTdOhM) was very informative. 
+To write this program I was refferencing to materials availabe on w3schools.com [here](https://www.w3schools.com/python/ref_keyword_def.asp) and [here](https://www.w3schools.com/python/python_try_except.asp). Also I found this [video](https://www.youtube.com/watch?v=lAp_5qTdOhM) very informative. 
 
 The program is called: 
 
@@ -204,8 +204,31 @@ The output on Saturday and Sunday is:
 #### [Weekly task 06 - *squareroot.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/squareroot.py)
 
 
+    Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.
+    You should create a function called <tt>sqrt</tt> that does this.
+    I am asking you to create your own sqrt function and not to use the built in functions x ** .5 or math.sqrt(x).
+    This is to demonstrate that you can research and code a process (If you really needed the square root you would use one of the above methods). 
+    I suggest that you look at the newton method at estimating square roots. 
+
 In topic 06 we were looking at *if* statements and *while* and *for* loops. Weekly task required a good understanding the logic of Newton method before I could put the calculation in the code - I found that the process clicked after watching this [video](https://www.youtube.com/watch?v=FpOEx6zFf1o). 
-This task required from the students to create their own definition
+This task required from the students to create their own function rather than using built-in function. 
+
+
+Newton method is that for any number N, the square root is 0.5 * (X + N / X)
+
+
+
+The program is called: 
+
+    $ squareroot.py
+
+User input:
+
+    Please enter a positive number: 14.5
+
+The output is:
+
+    The square root of 14.5 is approx. 3.8.
 
 
 
