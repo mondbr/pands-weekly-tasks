@@ -214,7 +214,10 @@ In topic 06 we were looking at *if* statements and *while* and *for* loops. Week
 This task required from the students to create their own function rather than using built-in function. 
 
 
-Newton method is that for any number N, the square root is 0.5 * (X + N / X)
+Newton method is that for any number N, the square root is 0.5 * (X + N / X).
+
+
+
 
 
 

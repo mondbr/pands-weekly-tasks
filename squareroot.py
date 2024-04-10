@@ -17,15 +17,17 @@ def sqrt(x):
             # Returns : float -  Approximation of the square root of x
     
     if x < 0:
-        print ("This is a negative number, we need a positive number.") #number entered must be positive, so I am adding a check if the number is a positive number. 
+        print ("This is a negative number, we need a positive number.") # number entered must be positive, so I am adding a check if the number is a positive number. 
 
         x = abs(x) # Using abs() module to transform negative number into a positive number.
         print (f"Let me fix this negative number to be positive: {x}") 
     
     # I  am starting the loop with my guess: X = N:
 
-    guess = x 
+    guess = x  # variable 'guess' is a guess that first iteration equals to the number entered that we want to root
     
+
+    # in while loop we are checking condition of convergence
     while True:
         # Calculate the next guess using Newton's method 0.5 * (X + N / X)
         next_guess = 0.5 * (guess + x / guess)
