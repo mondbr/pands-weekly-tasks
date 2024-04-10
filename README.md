@@ -216,11 +216,10 @@ This task required from the students to create their own function rather than us
 
 Newton method is that for any number N, the square root is 0.5 * (X + N / X).
 
+I have created my own function *sqrt(x)*.  First I needed to check if the number is positive, as the assumption of this method is that the number must be positive. I used *if* statement and *abs()* module to get the positive floating number from the user input. 
 
-
-
-
-
+In the function, variable *guess*  is defined as an initial guess that first iteration equals to the number we want to root. Variable *x* was the user input.
+Next, in the *while* loop we are checking next guess which is the Newton method 0.5 * (X + N / X). I am using *if* statement to get the closest value of the difference between iterations. It is updating current guess to be the value of the next guess until the difference between them is small (less than 0,001). Then loop stops and returns the square root number rounded to the first decimal place. 
 
 
 The program is called: 
@@ -236,26 +235,30 @@ The output is:
     The square root of 14.5 is approx. 3.8.
 
 
-The assumption is that the number must be positive, so I addd a check if the number is a positive number and using *abs()* module I converted negative number to be positive.
+The assumption is that the number must be positive, so I aded a check if the number is a positive number and using *abs()* module to convert negative number to be positive.
 
 User input:
 
-    Please enter a positive integer: -10
+    Please enter a positive number: -14.5
 
 The output is:
     
-    Invalid input. Please enter a positive integer.
-
-
-
-
-
-
-
+    This is a negative number, we need a positive number.
+    Let me fix this negative number to be positive: 14.5
+    The square root of 14.5 is approx. 3.8.
 
 
 
 #### [Weekly task 07 - *es.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/es.py)
+
+    Write a program that reads in a text file and outputs the number of e's it contains. 
+    Think about what is being asked here, document any assumptions you are making.
+    The program should take the filename from an argument on the command line. 
+    I have not shown you how to do this, you need to look it up.
+
+Marks will be given for dealing with errors eg no argument, filename that does not exist, or is not a text file.
+
+
 
 #### [Weekly task 08 - *plottask.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/plottask.py)
 
