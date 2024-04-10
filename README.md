@@ -254,13 +254,45 @@ The output is:
     Write a program that reads in a text file and outputs the number of e's it contains. 
     Think about what is being asked here, document any assumptions you are making.
     The program should take the filename from an argument on the command line. 
-    I have not shown you how to do this, you need to look it up.
+    Marks will be given for dealing with errors eg no argument, filename that does not exist, or is not a text file.
 
-Marks will be given for dealing with errors eg no argument, filename that does not exist, or is not a text file.
+
+This task required tons of research in order to meet all the requierements. I started with importing two modules: *sys* and *os*. 
+
+Using *sys* module, with the information taken from [Quora.com](https://www.quora.com/How-can-I-pass-a-list-of-file-names-as-a-command-line-argument-to-a-Python-script) I could take a command line argument that reads the file I selected. Using the *sys.argv[1]* variable, I defined that the filename is second argument when calling a program - *sys.argv[0]* is the program we are trying to start - which will be a *es.py* in this case. 
+
+Using *os* module I could check for various conditions such as file does not exist, or a file that is not a text file. 
+Reference to the *os* module is [Freecodecamp.org](https://www.freecodecamp.org/news/how-to-check-if-a-file-exists-in-python) and [Stackoverflow.com](https://stackoverflow.com/questions/57007680/how-to-handle-the-exception-when-input-file-does-not-exists-in-python)
+
+Using *file_name,'r'* function I opened a file that we called in the command line argument *moby-dick.txt*, and make it available just for reading *r*. For counting the lower letter 'e' and upper case letter 'E' I used the method *count()*.  
+
+The program is called: 
+
+    $ es.py moby-dick.txt
+
+The output is a simple number:
+
+    59646
+
+The assumption is that the file exist. If not, the error message is prompting:
+
+    File does not exist
+
+Another assumption is that the file is a txt file. If not, the error message is prompting:
+
+    File is not a text file
+
 
 
 
 #### [Weekly task 08 - *plottask.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/plottask.py)
+
+    Write a program called plottask.py that displays:
+    a histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2, 
+    and a plot of the function  h(x)=x3 in the range 0 to 10, on the one set of axes. 
+    Some marks will be given for making the plot look nice (legend etc).
+
+
 
 
 
