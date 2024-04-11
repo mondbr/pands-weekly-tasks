@@ -39,7 +39,7 @@ The output is:
 
     Hello World!
 
-
+---
 
 
 #### [Weekly task 02 - *bank.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/bank.py)
@@ -70,7 +70,7 @@ The output is:
     The sum of these is €2.45
 
 
-
+---
 
 
 #### [Weekly task 03 - *accoutns.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/accounts.py)
@@ -105,7 +105,7 @@ The output is:
     Invalid account number. Please enter exaclty 10 digits
 
 
-
+---
 
 
 #### [Weekly task 03 Extra - *accounts_extra.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/accounts_extra.py)
@@ -140,7 +140,7 @@ The output is:
 
     Invalid account number. Please enter a valid account number with at least 4 digits
 
-
+---
 
 #### [Weekly task 04 - *collatz.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/collatz.py)
 
@@ -185,6 +185,9 @@ The output is:
 
 
 
+---
+
+
 #### [Weekly task 05 - *weekday.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/weekday.py)
 
     Write a program that outputs whether or not today is a weekday.
@@ -202,6 +205,9 @@ The output on Saturday and Sunday is:
 
     It is a weekend, yay! :)
 
+
+
+---
 
 
 #### [Weekly task 06 - *squareroot.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/squareroot.py)
@@ -252,6 +258,9 @@ The output is:
 
 
 
+---
+
+
 #### [Weekly task 07 - *es.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/es.py)
 
     Write a program that reads in a text file and outputs the number of e's it contains. 
@@ -288,6 +297,9 @@ Another assumption is that the file is a txt file. If not, the error message is 
 
 
 
+---
+
+
 #### [Weekly task 08 - *plottask.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/plottask.py)
 
 
@@ -320,7 +332,7 @@ The output is:
 
 ---
 
- ### Technologies
+ ## Technologies
 
 * Visual Studio Code Version: 1.88.1
 * Cmder version v1.6.11.
