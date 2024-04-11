@@ -293,6 +293,9 @@ Another assumption is that the file is a txt file. If not, the error message is 
     Some marks will be given for making the plot look nice (legend etc).
 
 
+I generating a dataset (data) of 1000 random numbers sampled from a normal distribution with a mean of 5 and a standard deviation of 2 using NumPy. 
+This dataset can be used for various statistical analyses or for plotting histograms and other visualizations.
+
 
 
 ![Plot_task](https://github.com/mondbr/pands-weekly-tasks/blob/main/plottask.png)
