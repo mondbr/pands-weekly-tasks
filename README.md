@@ -23,7 +23,6 @@ Each file contains comments to the code I am writing. Below I will explain my ap
     * [Weekly task 08 - *plottask.py*](#weekly-task-08---plottaskpy)
 
 
-====
 
 
 # Weekly tasks
@@ -41,7 +40,7 @@ The output is:
     Hello World!
 
 
-===
+
 
 #### [Weekly task 02 - *bank.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/bank.py)
 
@@ -71,7 +70,7 @@ The output is:
     The sum of these is €2.45
 
 
-===
+
 
 
 #### [Weekly task 03 - *accoutns.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/accounts.py)
@@ -106,7 +105,7 @@ The output is:
     Invalid account number. Please enter exaclty 10 digits
 
 
-===
+
 
 
 #### [Weekly task 03 Extra - *accounts_extra.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/accounts_extra.py)
@@ -291,6 +290,7 @@ Another assumption is that the file is a txt file. If not, the error message is 
 
 #### [Weekly task 08 - *plottask.py*](https://github.com/mondbr/pands-weekly-tasks/blob/main/plottask.py)
 
+
     Write a program called plottask.py that displays:
     a histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2, 
     and a plot of the function  $h(x)=x3$ in the range 0 to 10, on the one set of axes. 
@@ -319,7 +319,10 @@ The output is:
 
 
 
+ ### Technologies
 
+* Visual Studio Code Version: 1.88.1
+* Cmder version v1.6.11.
 
 
 
