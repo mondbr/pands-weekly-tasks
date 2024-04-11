@@ -147,7 +147,7 @@ The output is:
     but if it is odd, multiply it by three and add one.
     Have the program end if the current value is one.
 
-In topic 04 we were looking at if statements and while and for loops. In the weekly task 04 I needed to write a program that will represent the Collatz conjecture. It is also known as the $3n + 1$ conjecture or Collatz problem. It's a mathematical problem that involves iterating a particular sequence based on a simple rule. The rule is as follows:
+In topic 04 we were looking at *if* statements and *while* and *for* loops. In the weekly task 04 I needed to write a program that will represent the Collatz conjecture. It is also known as the $3n + 1$ conjecture or Collatz problem. It's a mathematical problem that involves iterating a particular sequence based on a simple rule. The rule is as follows:
 
     1. Start with any positive integer n
     2. If n is even, divide it by 2 (n / 2)
