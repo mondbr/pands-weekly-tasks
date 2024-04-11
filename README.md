@@ -318,6 +318,7 @@ The output is:
 ![Plot_task](https://github.com/mondbr/pands-weekly-tasks/blob/main/plottask.png)
 
 
+---
 
  ### Technologies
 
