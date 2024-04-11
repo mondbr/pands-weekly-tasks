@@ -150,8 +150,8 @@ The output is:
 In topic 04 we were looking at if statements and while and for loops. In the weekly task 04 I needed to write a program that will represent the Collatz conjecture. It is also known as the $3n + 1$ conjecture or Collatz problem. It's a mathematical problem that involves iterating a particular sequence based on a simple rule. The rule is as follows:
 
     1. Start with any positive integer n
-    2. If n is even, divide it by 2 $(n / 2)$
-    3. If n is odd, multiply it by 3 and add 1 $(3n + 1)$
+    2. If n is even, divide it by 2 (n / 2)
+    3. If n is odd, multiply it by 3 and add 1 (3n + 1)
     4. Repeat the process with the new value of n obtained in step 2 or 3.
 
 The conjecture posits that no matter what positive integer you start with, this sequence will eventually reach 1. However, proving or disproving this conjecture remains an unsolved problem in mathematics, despite being easy to understand and experiment with computationally. 
@@ -214,12 +214,12 @@ In topic 06 we were looking at *if* statements and *while* and *for* loops. Week
 This task required from the students to create their own function rather than using built-in function. 
 
 
-Newton method is that for any number N, the square root is $0.5 * (X + N / X)$.
+Newton method is that for any number N, the square root is $0.5 * (x + n / x)$.
 
 I have created my own function *sqrt(x)*.  First I needed to check if the number is positive, as the assumption of this method is that the number must be positive. I used *if* statement and *abs()* module to get the positive floating number from the user input. 
 
 In the function, variable *guess*  is defined as an initial guess that first iteration equals to the number we want to root. Variable *x* was the user input.
-Next, in the *while* loop we are checking next guess which is the Newton method $0.5 * (X + N / X)$. I am using *if* statement to get the closest value of the difference between iterations. It is updating current guess to be the value of the next guess until the difference between them is small (less than 0,001). Then loop stops and returns the square root number rounded to the first decimal place. 
+Next, in the *while* loop we are checking next guess which is the Newton method $0.5 * (x + n / x)$. I am using *if* statement to get the closest value of the difference between iterations. It is updating current guess to be the value of the next guess until the difference between them is small (less than 0,001). Then loop stops and returns the square root number rounded to the first decimal place. 
 
 
 The program is called: 
@@ -311,7 +311,7 @@ To plot the function I used *plt.plot* and customise it by adding a legend and t
 
 The output is:
 
-![Plot_task]
+![Plot_task](https://github.com/mondbr/pands-weekly-tasks/blob/main/plottask.png)
 
 
 
