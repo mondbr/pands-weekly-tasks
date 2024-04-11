@@ -27,20 +27,25 @@ data = np.random.normal(5, 2, 1000)
 # 'data' dataset I want to plot as a histogram
 # 'alpha' parameter sets the transparency level of the histogram bars. A value of 0.1 means the bars 
 # will be very transparent, allowing any underlying data or other elements of the plot to be visible through them
-# 'color', 'label' amd 'edgecolor' are specifing color of the histogram bars, label to historgam plot and color of the edges of the histogram bars
+# 'color', 'label' amd 'edgecolor' are specifing color of the histogram bars, 
+#  label to historgam plot and color of the edges of the histogram bars
 
 plt.hist(data, alpha=0.1, color='blue', label='Normal Distribution', edgecolor="black")
 
 
 
 # Generate x values and calculate corresponding y values for the function h(x) = x^3
-# This line generates 100 equally spaced values between 0 and 10 inclusive using NumPy's linspace() function. 
+# This line generates 10 linear spaces values between 0 and 10 inclusive using linspace function from numpy. 
 # These values represent the x-coordinates for plotting the function
 # and assign to variable x
-x = np.linspace(0, 10, 100)
+# https://numpy.org/doc/stable/reference/generated/numpy.linspace.html
+# https://realpython.com/np-linspace-numpy/
 
-# This line calculates the corresponding y values for the function 
-# by raising each x value to the power of 3.
+x = np.linspace(0, 10, 10)
+
+
+# This line calculates y values for the function 
+# by raising x value to the power of 3.
 y = x ** 3
 
 # the above code means that 'x' will contain 100 x values evenly spaced between 0 and 10, 
@@ -53,8 +58,8 @@ plt.plot(x, y, color='green', label='$h(x) = x^3$')
 # Add legend, labels, and title
 plt.legend()
 plt.xlabel('Values')
-plt.ylabel('h(x) = x^3')
-plt.title('Histogram of Normal Distribution and Plot of $h(x) = x^3$')
+plt.ylabel('$h(x) = x^3$')
+plt.title('Week 8 task - Histogram of Normal Distribution and Plot of $h(x) = x^3$')
 
 # print the histogram and plot
 plt.show()

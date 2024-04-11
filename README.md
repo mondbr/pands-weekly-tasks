@@ -147,11 +147,11 @@ The output is:
     but if it is odd, multiply it by three and add one.
     Have the program end if the current value is one.
 
-In topic 04 we were looking at if statements and while and for loops. In the weekly task 04 I needed to write a program that will represent the Collatz conjecture. It is also known as the 3n + 1 conjecture or Collatz problem. It's a mathematical problem that involves iterating a particular sequence based on a simple rule. The rule is as follows:
+In topic 04 we were looking at if statements and while and for loops. In the weekly task 04 I needed to write a program that will represent the Collatz conjecture. It is also known as the $3n + 1$ conjecture or Collatz problem. It's a mathematical problem that involves iterating a particular sequence based on a simple rule. The rule is as follows:
 
     1. Start with any positive integer n
-    2. If n is even, divide it by 2 (n / 2)
-    3. If n is odd, multiply it by 3 and add 1 (3n + 1)
+    2. If n is even, divide it by 2 $(n / 2)$
+    3. If n is odd, multiply it by 3 and add 1 $(3n + 1)$
     4. Repeat the process with the new value of n obtained in step 2 or 3.
 
 The conjecture posits that no matter what positive integer you start with, this sequence will eventually reach 1. However, proving or disproving this conjecture remains an unsolved problem in mathematics, despite being easy to understand and experiment with computationally. 
@@ -214,12 +214,12 @@ In topic 06 we were looking at *if* statements and *while* and *for* loops. Week
 This task required from the students to create their own function rather than using built-in function. 
 
 
-Newton method is that for any number N, the square root is 0.5 * (X + N / X).
+Newton method is that for any number N, the square root is $0.5 * (X + N / X)$.
 
 I have created my own function *sqrt(x)*.  First I needed to check if the number is positive, as the assumption of this method is that the number must be positive. I used *if* statement and *abs()* module to get the positive floating number from the user input. 
 
 In the function, variable *guess*  is defined as an initial guess that first iteration equals to the number we want to root. Variable *x* was the user input.
-Next, in the *while* loop we are checking next guess which is the Newton method 0.5 * (X + N / X). I am using *if* statement to get the closest value of the difference between iterations. It is updating current guess to be the value of the next guess until the difference between them is small (less than 0,001). Then loop stops and returns the square root number rounded to the first decimal place. 
+Next, in the *while* loop we are checking next guess which is the Newton method $0.5 * (X + N / X)$. I am using *if* statement to get the closest value of the difference between iterations. It is updating current guess to be the value of the next guess until the difference between them is small (less than 0,001). Then loop stops and returns the square root number rounded to the first decimal place. 
 
 
 The program is called: 
@@ -289,16 +289,29 @@ Another assumption is that the file is a txt file. If not, the error message is 
 
     Write a program called plottask.py that displays:
     a histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2, 
-    and a plot of the function  h(x)=x3 in the range 0 to 10, on the one set of axes. 
+    and a plot of the function  $h(x)=x3$ in the range 0 to 10, on the one set of axes. 
     Some marks will be given for making the plot look nice (legend etc).
 
 
-I generating a dataset (data) of 1000 random numbers sampled from a normal distribution with a mean of 5 and a standard deviation of 2 using NumPy. 
-This dataset can be used for various statistical analyses or for plotting histograms and other visualizations.
+This task required a code to generate a histogram of random data from a normal distribution and plots the function $h(x)=x3$ on the same plot.
+
+Firstly, I imported two libraries *numpy* and *matplotlib* and its module *pyplot* to be able work on mathematical calculations, array manipulations, creating plots and histograms. 
+Then, I generated a dataset (data) of 1000 random numbers sampled from a normal distribution with a mean of 5 and a standard deviation of 2 using NumPy. 
+
+I used matplotlib's hist() function to create a histogram plot of the data specyfying how it will look - color of the histogram bars, label to historgam plot and color of the edges of the histogram bars. 
+
+Then I assigned variables *x* and *y*.
+To represent a mathematical function in Python and plot it, I used *np.linespace()*
+I was reffering to information from [Realpython.com](https://realpython.com/np-linspace-numpy/).
+
+To plot the function I used *plt.plot* and customise it by adding a legend and titles to x axis and y axis. 
 
 
 
-![Plot_task](https://github.com/mondbr/pands-weekly-tasks/blob/main/plottask.png)
+
+The output is:
+
+![Plot_task]
 
 
 
