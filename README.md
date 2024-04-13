@@ -219,7 +219,7 @@ The output on Saturday and Sunday is:
     This is to demonstrate that you can research and code a process (If you really needed the square root you would use one of the above methods). 
     I suggest that you look at the newton method at estimating square roots. 
 
-In topic 06 we were looking at *if* statements and *while* and *for* loops. Weekly task required a good understanding the logic of Newton method before I could put the calculation in the code - I found that the process clicked after watching this [video](https://www.youtube.com/watch?v=FpOEx6zFf1o). 
+In topic 06 we were looking at functions and modules. Weekly task required a good understanding the logic of Newton method before I could put the calculation in the code - I found that the process clicked after watching this [video](https://www.youtube.com/watch?v=FpOEx6zFf1o). 
 This task required from the students to create their own function rather than using built-in function. 
 
 
