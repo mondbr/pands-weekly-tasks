@@ -330,6 +330,9 @@ I was reffering to information from [Realpython.com](https://realpython.com/np-l
 
 To plot the function I used *plt.plot* and customise it by adding a legend and titles to x axis and y axis. 
 
+The program is called: 
+
+    $ plottask.py
 
 
 
