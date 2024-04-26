@@ -35,6 +35,10 @@ Each file contains comments to the code I am writing. Below I will explain my ap
 
 A simple and traditional "Hello World!" program is often used as the first example when learning a new programming language or environment. It's designed to demonstrate the basic syntax and structure of a programming language by printing the text "Hello World!" to the output.
 
+The program is called: 
+
+    $ python helloworld.py
+
 The output is: 
 
     Hello World!
@@ -56,7 +60,7 @@ The idea of how to take the sum of cents and convert it to represent money using
 
 The program is called: 
 
-    $ python bank.py
+    $ bank.py
 
 
 User input:
@@ -79,7 +83,7 @@ The output is:
     outputs the account number with only the last 4 digits showing 
     (and the first 6 digits replaced with Xs).
 
-This week, we were looking at variables in Python. The program I needed to write was very interesting to me because working with bank account numbers is related to my education and work experience. I started with code to ask the user to enter exactly a 10-digit number (bank account number). If the number of digits was incorrect, the program prompts an error message and asks to re-enter the number. Once the correct number is entered, the program replaces the first 6 digits with 'X', similar to what we can see in bank or card numbers, where specific numbers are encrypted for security reasons. The idea of how to replace digits was taken from [w3schools.com](https://www.w3schools.com/python/trypython.asp?filename=demo_string_replace).
+This week we were looking at variables in Python. The program I needed to write was very interesting to me because working with bank account numbers is related to my education and work experience. I started with code to ask the user to enter exactly a 10-digit number (bank account number). If the number of digits was incorrect, the program prompts an error message and asks to re-enter the number. Once the correct number is entered, the program replaces the first 6 digits with 'X', similar to what we can see in bank accounts or card numbers, where specific numbers are encrypted for security reasons. The idea of how to replace digits was taken from [w3schools.com](https://www.w3schools.com/python/trypython.asp?filename=demo_string_replace).
 
 
 The program is called: 
@@ -195,6 +199,10 @@ The output is:
 
 In topic 05 we were learning about lists, tuples and dictionaries and how we can use them in programming. This week task required a bit more research of how to approach to it. I decided to use the *import datetime* statement in Python that is used to import the datetime module, which provides classes and methods for working with dates and times. This module is part of the Python standard library. I found the information on [w3schools.com](https://www.w3schools.com/python/python_datetime.asp). The idea of how to get the current date and time and the *weekday()* method that returns the day of the week as an integer, where Monday is 0 and Sunday is 6 was taken from [shecodes.io](https://www.shecodes.io/athena/10185-how-to-check-what-day-of-the-week-it-is-in-python).
 
+The program is called: 
+
+    $ weekday.py
+
 
 The output from Monday to Friday is:
 
@@ -219,7 +227,7 @@ The output on Saturday and Sunday is:
     This is to demonstrate that you can research and code a process (If you really needed the square root you would use one of the above methods). 
     I suggest that you look at the newton method at estimating square roots. 
 
-In topic 06 we were looking at functions and modules. Weekly task required a good understanding the logic of Newton method before I could put the calculation in the code - I found that the process clicked after watching this [video](https://www.youtube.com/watch?v=FpOEx6zFf1o). 
+In topic 06 we were looking at *if* statements and *while* and *for* loops. Weekly task required a good understanding the logic of Newton method before I could put the calculation in the code - I found that the process clicked after watching this [video](https://www.youtube.com/watch?v=FpOEx6zFf1o). 
 This task required from the students to create their own function rather than using built-in function. 
 
 
@@ -271,7 +279,7 @@ The output is:
 
 This task required tons of research in order to meet all the requierements. I started with importing two modules: *sys* and *os*. 
 
-Using *sys* module, with the information taken from [Quora.com](https://www.quora.com/How-can-I-pass-a-list-of-file-names-as-a-command-line-argument-to-a-Python-script) I could take a command line argument that reads the file I selected. Using the *sys.argv[1]* variable, I defined that the filename is second argument when calling a program - *sys.argv[0]* is the program we are trying to start - which will be a *es.py* in this case. 
+Using *sys* module, with the information taken from [Quora.com](https://www.quora.com/How-can-I-pass-a-list-of-file-names-as-a-command-line-argument-to-a-Python-script) I could take a command line argument that reads the file I selected. Using the *sys.argv[1]* variable, I defined that the filename is second argument when calling a program - *sys.argv[0]* is the program we are trying to start - which will be the *es.py* in this case. 
 
 Using *os* module I could check for various conditions such as file does not exist, or a file that is not a text file. 
 Reference to the *os* module is [Freecodecamp.org](https://www.freecodecamp.org/news/how-to-check-if-a-file-exists-in-python) and [Stackoverflow.com](https://stackoverflow.com/questions/57007680/how-to-handle-the-exception-when-input-file-does-not-exists-in-python)
