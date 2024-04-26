@@ -37,7 +37,7 @@ A simple and traditional "Hello World!" program is often used as the first examp
 
 The program is called: 
 
-    $ python helloworld.py
+    $ helloworld.py
 
 The output is: 
 
@@ -279,7 +279,7 @@ The output is:
 
 This task required tons of research in order to meet all the requierements. I started with importing two modules: *sys* and *os*. 
 
-Using *sys* module, with the information taken from [Quora.com](https://www.quora.com/How-can-I-pass-a-list-of-file-names-as-a-command-line-argument-to-a-Python-script) I could take a command line argument that reads the file I selected. Using the *sys.argv[1]* variable, I defined that the filename is second argument when calling a program - *sys.argv[0]* is the program we are trying to start - which will be the *es.py* in this case. 
+Using *sys* module, with the information taken from [Quora.com](https://www.quora.com/How-can-I-pass-a-list-of-file-names-as-a-command-line-argument-to-a-Python-script) I could take a command line argument that reads the file I selected. Using the *sys.argv[1]* variable, I defined that the filename is second argument when calling a program - *sys.argv[0]* is the program we are trying to start - which will be the> *es.py* in this case. 
 
 Using *os* module I could check for various conditions such as file does not exist, or a file that is not a text file. 
 Reference to the *os* module is [Freecodecamp.org](https://www.freecodecamp.org/news/how-to-check-if-a-file-exists-in-python) and [Stackoverflow.com](https://stackoverflow.com/questions/57007680/how-to-handle-the-exception-when-input-file-does-not-exists-in-python)
