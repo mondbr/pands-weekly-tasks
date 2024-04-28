@@ -6,8 +6,6 @@ author: Monika Dabrowska
 
 This repository is for solutions to the weekly tasks for Programming and Scripting module on Higher Diploma in Data Analytics course from [ATU](https://www.atu.ie/).
 
-I don't have any prevoius programming experience nor knowledge of basing coding, so I am using multiple sources and references to help me to complete the assignments. 
-
 Each file contains comments to the code I am writing. Below I will explain my approach to solving the assigned task and reference the sources I researched for solving the problems. 
 
 ## Table of contents:
@@ -340,6 +338,12 @@ The output is:
 
 ![Plot_task](https://github.com/mondbr/pands-weekly-tasks/blob/main/plottask.png)
 
+
+### About me
+
+My name is Monika Dabrowska and I am an [ATU](https://www.atu.ie/) student of first semester of Programming and Scripting module on Higher Diploma in Data Analytics course in Summer 2023/24.
+
+I don't have any prevoius programming experience nor knowledge of basing coding, so I am using multiple sources and references to help me to complete the assignments. 
 
 ---
 
